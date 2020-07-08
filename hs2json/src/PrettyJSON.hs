@@ -57,4 +57,8 @@ pointyString s = enclose '"' '"' (hcat (map oneChar s))
 
 series :: Char -> Char -> (a -> Doc) -> [a] -> Doc
 series open close item = enclose open close
+<<<<<<< HEAD
                        . fsep . punctuate (char ',') . map item
+=======
+                       . fsep . punctuate (char ',') . map item
+>>>>>>> 5e5cac3fe0d231bdb59f73c21de20b6a540622c3
