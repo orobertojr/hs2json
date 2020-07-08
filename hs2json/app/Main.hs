@@ -11,4 +11,3 @@ main = do
     putStrLn (pretty 10 value)
     putStrLn (pretty 20 value)
     putStrLn (pretty 30 value)
-    
